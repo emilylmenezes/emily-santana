@@ -169,6 +169,23 @@ h1 {
   margin-bottom: 50px;
 }
 
+.meus-projetos .jogo1{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 130px;
+}
+
+.meus-projetos .jogo2{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 130px;
+}
+
+.meus-projetos .jogo3{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 130px;
+}
 .section-projetos {
   flex: 1 1 200px;
   margin-left: 25px;
