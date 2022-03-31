@@ -1,0 +1,229 @@
+body, p, h1, h2, input, textarea {
+  margin: 0;
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.cabecalho {
+  background-color: #341d3f;
+  color: #FFF;
+  padding: 0 15px;
+  height: 60px;
+}
+
+
+.cabecalho h1 {
+  display: inline-block;
+  margin: 0;
+  line-height: 60px;
+  margin-left: 55px;
+}
+
+.cabecalho img {
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  border-radius: 100px;
+}
+
+
+.conteudo-principal {
+  height: 70vh;
+  background-image: url('../img/principal02.png');
+  background-size: cover;
+  padding-top: 15vh;
+}
+
+.conteudo {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #FFF;
+  padding: 50px;
+}
+
+.conteudo img {
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ED1E24;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.conteudo p {
+  background-color: #41456c;
+  font-weight: bold;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+}
+
+
+
+.section-sobre {
+  text-align: center;
+  background-color: #341d3f;
+  color: #FFF;
+  padding-top: 50px;
+  height: 350px;
+}
+
+.section-sobre h2 {
+  margin-bottom: 20px;
+}
+
+.section-sobre p {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 30px;
+}
+
+
+
+.quadradoMaior {
+  margin-top: -60px;
+  background-color: white;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #DDD;
+  border-radius: 10px;
+}
+
+.quadradoMaior .sub-quadrado {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.quadrado-habilidades {
+  flex: 1 1 1;
+  text-align: center;
+  padding: 60px 25px;
+}
+
+.central {
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
+
+.quadrado-habilidades h3 {
+  color: #681c2c;
+  font-size: 20px;
+}
+
+.quadrado-habilidades img {
+  height: 60px;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-top: 1px solid #6d2644;
+  border-left: 1px solid #6d2644;
+  border-bottom: 4px solid #6d2644;
+  border-right: 4px solid #6d2644;
+}
+
+.quadrado-habilidades .subtitle {
+  font-weight: bold;
+  color: #681c2c;
+  margin-top: 50px;
+  margin-bottom: 15px;;
+}
+
+.quadrado-habilidades p {
+  line-height: 25px
+}
+
+
+.projetos {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.projetos h2 {
+  color: #681c2c;
+  margin-bottom: 30px;
+}
+
+.projetos p {
+  margin-bottom: 50px;
+}
+
+.projetos a {
+  font-weight: bold;
+  color: #681c2c;
+}
+
+.meus-projetos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.section-projetos {
+  flex: 1 1 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+  width:350px;
+  height: 250px;
+  background-size: cover;
+  border-right: 2px solid #6d2644;
+  border-bottom: 2px solid #6d2644;;
+}
+
+.freeway {
+  background-image: url('../img/freeway.jpg');
+}
+
+.pebolim {
+  background-image: url('../img/pebolim.jpeg');
+}
+
+.pingpong {
+  background-image: url('../img/pingpong.jpg');
+}
+
+
+footer {
+  padding: 50px 0;
+  background-color: #681c2c;
+  color: #FFF;
+  text-align: center;
+}
+
+footer img {
+  height: 50px;
+  margin: 30px 0;
+}
+
+footer p {
+  margin-top: 25px;
+}
+
+footer form {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer input, footer textarea {
+  border: none;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 100%;
+  display: block;
+}
+
+footer .detail {
+  font-weight: bold;
+}
