@@ -7,4 +7,4 @@
  
  # Fluxo do código
  
- #### O body do HTML é separado em três partes: header, main e footer - cabeçalho, conteúdo principal e rodapé - Dentro do conteúdo principal eu organizei em blocos, utilizando as tags DIV e SECTION, optei por essa forma para que ficasse mais legível e me auxiliasse no momento de esilizar
+ #### O body do HTML é separado em três partes: header, main e footer - cabeçalho, conteúdo principal e rodapé - Dentro do conteúdo principal eu organizei em blocos, utilizando as tags DIV e SECTION, optei por essa forma para que ficasse mais legível e me auxiliasse no momento de estilizar
