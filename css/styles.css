@@ -1,3 +1,5 @@
+
+/* Geral */
 body, p, h1, h2, input, textarea {
   margin: 0;
   font-family: Roboto;
@@ -7,6 +9,7 @@ h1 {
   font-size: 30px;
 }
 
+/* Header */
 .cabecalho {
   background-color: #341d3f;
   color: #FFF;
@@ -29,6 +32,8 @@ h1 {
   border-radius: 100px;
 }
 
+
+/* Main */
 
 .conteudo-principal {
   height: 70vh;
@@ -64,6 +69,7 @@ h1 {
 }
 
 
+/* Seção do Sobre */
 
 .section-sobre {
   text-align: center;
@@ -84,7 +90,7 @@ h1 {
   line-height: 30px;
 }
 
-
+/*Seções de Habilidades */ 
 
 .quadradoMaior {
   margin-top: -60px;
@@ -139,6 +145,7 @@ h1 {
   line-height: 25px
 }
 
+/* Seções dos Projetos que Desenvolvi */
 
 .projetos {
   text-align: center;
@@ -210,6 +217,8 @@ h1 {
 }
 
 
+/* Rodapé */
+
 footer {
   padding: 50px 0;
   background-color: #681c2c;
@@ -245,6 +254,8 @@ footer .detail {
   font-weight: bold;
 }
 
+/* Animações */
+
 .botaoAnimado:hover, .botaoAnimado:focus{
   cursor: pointer;
   transition: 5s;
@@ -265,4 +276,6 @@ footer .detail {
       transform: translateX(0);
   }
 }
+
+
 
