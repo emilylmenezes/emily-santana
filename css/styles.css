@@ -245,8 +245,6 @@ footer .detail {
   font-weight: bold;
 }
 
-/* Animações  */
-
 .botaoAnimado:hover, .botaoAnimado:focus{
   cursor: pointer;
   transition: 5s;
