@@ -244,3 +244,25 @@ footer input, footer textarea {
 footer .detail {
   font-weight: bold;
 }
+
+.botaoAnimado:hover, .botaoAnimado:focus{
+  cursor: pointer;
+  transition: 5s;
+  background-color: rebeccapurple;
+  transform: translateX(10px) scale(1.2);
+}
+
+.meuNome {
+  animation: goBack 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes goBack{
+  0% {
+      transform: translateX(100px);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
